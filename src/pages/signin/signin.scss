@@ -1,0 +1,41 @@
+page-signin {
+  /*.background{
+    background-color:rgb(143, 129, 196) ;
+  }*/
+
+    .background{
+      background:linear-gradient(250deg,#F51D26,#233F76,#A3C3DB,#48C3EF,#844AD8,#D87733);
+      background-size: 400% 400%;
+      animation:colorchange 25s ease-out infinite;
+    }
+    @keyframes colorchange {
+      0%{background-position: 0% 99%}
+      50%{background-position: 100% 1%}
+      100%{background-position: 10% 90%}
+    }
+    /**/
+
+    ion-card.card {
+      box-shadow: none;
+      background: rgba(232, 230, 230, 0.6px);
+      border-radius: 10px;
+      z-index: 100;
+
+    }
+    .item {
+      background: rgba(232, 230, 230, 0px);
+      border: medium none;
+    }
+    ion-input {
+      border-bottom: #FD4D73 solid 1px;
+    }
+    h1{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 3em;
+      font-weight: lighter;
+      color: #fff;
+    }
+
+
+
+}

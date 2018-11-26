@@ -1,0 +1,34 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title >
+      Bem vindo ao Futuro!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- mapa-->
+<ion-content padding class="background">
+  <h1 class="h1">Neda Interprise</h1>
+  <p class="p">
+    Utilize nossa aplicação para se encontrar localizações de interesse,
+    se localizar caso  esteja perdido ou
+     traçar um ponto destino
+      para você descobrir o menor percurso a ser tomado.
+  <br>
+
+
+  </p>
+  <ion-list class="lista">
+    <button ion-item *ngFor="let page of pages" (click)="openPage(page)">
+    <ion-icon name="ios-map-outline" item-end>
+    </ion-icon>
+      {{ page.title }}
+    </button>
+    <button ion-button block color="secondary" (click)="signOut()" icon-end>
+        Sair  <ion-icon  name="md-alert"></ion-icon>
+
+    </button>
+  </ion-list>
+</ion-content>
+
+

@@ -1,0 +1,132 @@
+<!--
+  Generated template for the SobrePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>sobre</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg-image">
+
+
+    <ion-fab right bottom>
+        <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>
+        <ion-fab-list side="left">
+          <button ion-fab><ion-icon name="md-map"></ion-icon></button>
+          <button ion-fab><ion-icon name="md-subway"></ion-icon></button>
+          <button ion-fab><ion-icon name="ios-navigate"></ion-icon></button>
+          <button ion-fab><ion-icon name="md-move"></ion-icon></button>
+        </ion-fab-list>
+      </ion-fab>
+
+<!-- <button ion-button block color="primary" (click)="signOut()">
+      Sair
+    </button>-->
+    <ion-slides pager>
+
+        <ion-slide style="background-color: primary" class="folha">
+          <h2 class="h21">Para que serve</h2>
+          <h2 class="h21">o Mapa</h2>
+
+          <ion-card>
+
+            <img src="../assets/img/mw-860.jfif">
+
+
+            <ion-item class="text">
+              <ion-icon name="ios-navigate-outline" item-start large></ion-icon>
+              <h2>Mapa</h2>
+              <p>Satelite Google Maps</p>
+            </ion-item>
+
+            <ion-item>
+              <ion-icon name="ios-compass" item-start large ></ion-icon>
+              <h2>Função</h2>
+              <p>Identificar pontos de interesse pelo mundo.</p><br>
+              <p>Buscar rotas e endereços.</p>            </ion-item>
+
+            <ion-item>
+
+              <button ion-button icon-start clear item-end>
+                <ion-icon name="md-map"></ion-icon>
+                Mapa
+              </button>
+            </ion-item>
+
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide style="background-color: primary" class="folha1">
+            <h2 class="h21">Para que serve</h2>
+            <h2 class="h21">a Geolocalização!</h2>
+            <ion-card>
+
+              <img src="../assets/img/gg.jpeg">
+
+
+              <ion-item class="text">
+                <ion-icon name="md-move" item-start large></ion-icon>
+                <h2>Geolocalização</h2>
+                <p>Satelite Google Maps</p>
+              </ion-item>
+
+              <ion-item>
+                <ion-icon name="ios-compass" item-start large ></ion-icon>
+                <h2>Função</h2>
+                <p>Identificar sua localização <br>automaticamente.
+                </p><br>
+                <p>Utilizar o mapa apartir do seu ponto de<br> encontro.</p>            </ion-item>
+
+              <ion-item>
+
+                <button ion-button icon-start clear item-end>
+                  <ion-icon name="ios-analytics"></ion-icon>
+                  Geo
+                </button>
+              </ion-item>
+
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide style="background-color:primary" class=folha2>
+            <h2 class="h21">Para que serve</h2>
+            <h2 class="h21">a Definição de Rota!</h2>
+            <ion-card>
+
+              <img src="../assets/img/ggg.jpg">
+
+
+              <ion-item class="text">
+                <ion-icon name="ios-locate" item-start large></ion-icon>
+                <h2>Definir Rota</h2>
+                <p>Satelite Google Maps</p>
+              </ion-item>
+
+              <ion-item>
+                <ion-icon name="ios-compass" item-start large ></ion-icon>
+                <h2>Função</h2><br>
+                <p>Definir uma rota para um destino.</p><br>
+                <p>Apartir de um ponto de origem escolhido.</p><br>
+                <p>Tracejar o menor percurso.</p>
+              </ion-item>
+
+              <ion-item>
+
+                <button ion-button icon-start clear item-end>
+                  <ion-icon name="ios-bus"></ion-icon>
+                  Rota
+                </button>
+              </ion-item>
+
+            </ion-card>
+        </ion-slide>
+
+      </ion-slides>
+</ion-content>

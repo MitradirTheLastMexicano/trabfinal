@@ -1,0 +1,7 @@
+{
+  "name": "trabfinal",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
